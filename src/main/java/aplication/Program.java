@@ -19,7 +19,9 @@ public class Program {
         //2
         for(int i =0;i<= num;i++){
             System.out.println();
+            System.out.println("Rend #" + i + ":");
             System.out.print("nome: ");
+            leia.nextLine();
             String name = leia.nextLine();
             System.out.println();
             System.out.print("email: ");
